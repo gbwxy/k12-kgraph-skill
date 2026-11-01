@@ -7,7 +7,7 @@ description: 在本地 Agent 中使用 K12-KGraph（北京大学 NeurIPS 2026 �
 
 K12-KGraph 是北京大学 PKU-DCAI 团队发布的课标知识图谱（NeurIPS 2026 Evaluations & Datasets Track）：基于人教版 48 本教材抽取，含 7 类节点（Book / Chapter / Section / Concept / Skill / Experiment / Exercise）和 9 类关系，配套 K12-Bench（23,640 道多选题）与 K12-Train（2,267 条 QA）。
 
-**许可红线**：数据 CC BY-NC-SA 4.0（**禁止商用**，衍生需同许可），上游仓库代码 MIT。对外产品化前必须确认授权；向用户输出数据时注明来源。
+**许可红线**：数据 CC BY-NC-SA 4.0（**禁止商用**，衍生需同许可），上游仓库代码 MIT；本 skill 与其一致——文档 CC BY-NC-SA 4.0、代码 MIT（见 LICENSE / LICENSE-CODE）。对外产品化前必须确认授权；向用户输出数据时注明来源。
 
 **本技能目录**：`scripts/kg.py`（纯 stdlib 查询 CLI）、`scripts/fetch_data.sh`（数据下载）、`references/schema.md`（完整 schema 与 ID 规范）。
 

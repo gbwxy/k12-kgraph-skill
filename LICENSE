@@ -1,0 +1,49 @@
+k12-kgraph-skill — License
+
+Copyright (c) 2026 Wang Jun
+
+This work is licensed under the Creative Commons
+Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0),
+the same license as the upstream K12-KGraph dataset.
+
+You are free to:
+
+- Share — copy and redistribute the material in any medium or format
+- Adapt — remix, transform, and build upon the material
+
+Under the following terms:
+
+- Attribution — You must give appropriate credit, provide a link to the
+  license, and indicate if changes were made, in any reasonable manner
+  that does not imply endorsement by the licensor.
+- NonCommercial — You may not use the material for commercial purposes.
+- ShareAlike — If you remix, transform, or build upon the material, you
+  must distribute your contributions under the same license as the original.
+- No additional restrictions — You may not apply legal terms or
+  technological measures that legally restrict others from doing anything
+  the license permits.
+
+Scope
+
+This license covers this repository's documentation and derived material
+(README.md, SKILL.md, references/). The repository's source code
+(scripts/) is released separately under the MIT License via LICENSE-CODE,
+mirroring the upstream split.
+
+The K12-KGraph dataset that this skill queries remains under its own
+license (CC BY-NC-SA 4.0, © 2026 K12-KGraph Authors) and is **not**
+redistributed by this repository; you obtain it from
+https://huggingface.co/datasets/lhpku20010120/K12-KGraph and use it under
+the upstream terms. Any dataset extracts you share remain subject to the
+upstream NonCommercial and ShareAlike conditions.
+
+Rationale (mirroring upstream K12-KGraph)
+
+The documentation embeds schema descriptions derived from K12-KGraph,
+which draws from the People's Education Press (PEP) K-12 textbooks. The
+NonCommercial clause prevents downstream commercial repackaging that could
+create licensing conflicts; ShareAlike keeps improvements available to the
+community.
+
+Full legal code:
+https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode

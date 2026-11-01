@@ -215,6 +215,8 @@ python3 scripts/kg.py [--data DIR|FILE] COMMAND [ARGS]
 k12-kgraph-skill/
 ├── SKILL.md              # Agent 的行为说明：触发条件、数据获取、4 类任务工作流
 ├── README.md             # 本文件（面向人）
+├── LICENSE               # CC BY-NC-SA 4.0（文档与衍生材料，与上游一致）
+├── LICENSE-CODE          # MIT（代码，与上游一致）
 ├── scripts/
 │   ├── kg.py             # 查询 CLI（纯标准库）：9 个子命令，见 §6
 │   └── fetch_data.sh     # 数据下载/更新：core（图谱）/ all（+ 习题 + Bench + Train）/ update（更新缓存）
@@ -236,6 +238,9 @@ k12-kgraph-skill/
 
 ## 10. 许可与致谢
 
-- **数据**（K12-KGraph 图谱 / Bench / Train）：[CC BY-NC-SA 4.0](https://github.com/haolpku/K12-KGraph/blob/main/LICENSE) © 北京大学 PKU-DCAI —— 禁止商用，使用请注明 *数据来源 K12-KGraph*。
-- **本 skill 的脚本与文档**：以本仓库 LICENSE 文件为准；如未添加 LICENSE，默认保留所有权利（欢迎补一个 MIT）。
+本仓库采用与上游 K12-KGraph **一致的双许可结构**（LICENSE = 内容许可，LICENSE-CODE = 代码许可）：
+
+- **文档与衍生材料**（README.md / SKILL.md / references/）：[CC BY-NC-SA 4.0](LICENSE) © 2026 Wang Jun —— 禁止商用，衍生须同许可。
+- **代码**（scripts/）：[MIT](LICENSE-CODE) © 2026 Wang Jun。
+- **数据**（K12-KGraph 图谱 / Bench / Train，本仓库不分发）：[CC BY-NC-SA 4.0](https://github.com/haolpku/K12-KGraph/blob/main/LICENSE) © 2026 K12-KGraph Authors —— 禁止商用，使用请注明 *数据来源 K12-KGraph*；从 HuggingFace 获取的数据及其摘录始终受上游 NC + ShareAlike 约束。
 - 致谢：[haolpku/K12-KGraph](https://github.com/haolpku/K12-KGraph) · [HuggingFace 数据集](https://huggingface.co/datasets/lhpku20010120/K12-KGraph) · [论文](https://huggingface.co/papers/2605.09635) · [项目主页](https://haolpku.github.io/K12-KGraph-page/)
